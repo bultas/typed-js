@@ -1,0 +1,13 @@
+{
+  "name": "type-checking-example",
+  "scripts": {
+    "tsc": "tsc && echo 'TypeScript check complete.'",
+    "test": "node -r esm ./jsdoc/**.test.js "
+  },
+  "devDependencies": {
+    "esm": "^3.2.25",
+    "tape": "^4.10.2",
+    "typescript": "^3.5.1"
+  },
+  "dependencies": {}
+}
